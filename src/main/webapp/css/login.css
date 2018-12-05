@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    width:100%;
+    height: 140px;
+    box-shadow: 10px 10px 10px darksalmon;
+    background-color:#FAFAFA;
+}
+ img{
+    width: 200px;
+    height: 100px;
+     float: left;
+     margin-top: 20px;
+     margin-left: 60px;
+}
+ .header .word{
+     font-size: 18px;
+     line-height: 34px;
+     border-left: 2px solid #ccc;
+     position: absolute;
+     left: 280px;
+     top:70px;
+     padding-left: 20px;
+     font-size: 20px;color:#666;
+ }
+
+main{
+    margin:0 auto;
+    height: 544px;
+    width:1366px;
+    padding: 1px 1px 0 0 ;
+
+}
+.pho img {
+
+   width: 600px;
+    height: 350px;
+    margin:110px 0px 0px 100px;
+}
+.tab{
+    /*float: left;*/
+    height:370px;
+    width:260px;
+    background:beige;
+    margin:70px 0px 0px 900px;
+    border-radius: 3px;
+    padding: 20px 35px
+}
+span{
+    display: block;
+    text-align: center;
+    font-size: 25px;color: #666
+}
+.tab_1{
+    width: 225px;
+    height: 45px;
+    margin:35px auto;
+    border:1px solid green;
+    border-radius: 5px;
+}
+.wrong{
+    color:red;
+    font-size:13px;
+    opacity:0;
+    display: block;
+    float: left;
+    margin-left: 14px;
+    margin-top: -33px;
+    margin-bottom: -33px;
+}
+.wrong1{
+    color:red;
+    font-size:16px;
+    opacity:1;
+    display: block;
+    float: left;
+    margin-left: 14px;
+    margin-top: -33px;
+    margin-bottom: -33px;
+}
+main img{
+    width: 23px;
+    height: 24px;
+    margin: 10px 0px 0px 8px;
+}
+.login_tab{
+    width: 190px;
+    height: 30px;
+    margin-top: 7px;
+    float:right;
+    border:0px;
+    outline: 0px;
+    font-size: 15px;
+}
+#login_submit_button{
+    height: 40px;
+    width:225px;
+    color:white;
+    border:0px;
+    background-color: coral;
+    font-family: "微软雅黑";
+    border-radius: 5px;
+    display:block;
+    margin: 0 auto;
+}
+.tab_2{
+    height:30px;
+    width: 280px;
+    margin:20px 0px 0px 0px;
+    text-align: right;
+    font-size: 15px;
+}
+
+.tab_2 a{
+    text-decoration: none;
+    color:darkblue;}
+
+.tab_2 a:hover{
+    color:red;}
+
+.login_tab_0{
+    float:left;
+}
