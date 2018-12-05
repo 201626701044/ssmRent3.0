@@ -29,7 +29,7 @@
 
      <div style="text-align:center;margin-top:40px">
 
-         <form method="post" action="addMember">
+         <form method="post" action="${pageContext.request.contextPath }/member/listMember.controller">
              会员名： <input name="member_name" value="" type="text"> <br><br>
              <input type="submit" value="增加会员">
          </form>

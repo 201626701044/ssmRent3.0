@@ -5,8 +5,16 @@
 
 	<mapper namespace="com.zoe.mapper.MemberMapper">
 	    <insert id="add" parameterType="Member" >
-	        insert into member ( member_name ) values (#{member_name})
+	        insert into member ( member_name, member_password) values (#{member_name},#{member_password})
 	    </insert>
+
+		<select id="getMember" parameterType="String" resultType="Member" >
+			select  * from member where member_name=#{member_name}
+		</select>
+
+	<select id="findMemberByNameAndPwd" parameterType="map" resultType="Member">
+			select member_name,member_password from member where member_name=#{member_name} and member_password=#{member_password}
+		</select>
 	    
 	    <delete id="delete" parameterType="Member" >
 	        delete from member where member_ID= #{member_ID}
@@ -14,7 +22,9 @@
 	    
 	    <select id="get" parameterType="_int" resultType="Member">
 	        select * from   member  where member_ID= #{member_ID}
+
 	    </select>
+
 
 	    <update id="update" parameterType="Member" >
 	        update member set member_name=#{member_name} where member_ID=#{member_ID}
